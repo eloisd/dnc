@@ -1,15 +1,13 @@
-import React, { Component } from "react";
+import React from "react";
 
-import Nav from "./Nav";
+import NavBar from "./NavBar";
+import CarouselSection from "./CarouselSection";
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <Nav />
-      </div>
-    );
-  }
+export default function App() {
+  return (
+    <div>
+      <NavBar />
+      <CarouselSection />
+    </div>
+  );
 }
-
-export default App;
