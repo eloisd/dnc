@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap");
+
+#logo {
+  font-family: "Jacques Francois Shadow", cursive;
+  font-size: 2em;
+  font-weight: 100;
+  left: 50%;
+  transform: translate(-50%);
+  position: absolute;
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+}
+
+nav {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #fcfcfc;
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+nav > div {
+  margin: 0 2em;
+}
+
+.items {
+  margin: 0 10px;
+}
+
+.signButton {
+  margin: 0 10px;
+}
